@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Letter</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Enter your information</h1>
+      <div id="blanks">
+        <form>
+          <div class="form-group">
+            <label for="person1">A name</label>
+            <input id="person1" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="noun1">A noun, please.</label>
+            <input id="noun1" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="verb1">A past tense verb, please.</label>
+            <input id="verb1" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="noun2">A noun, please.</label>
+            <input id="noun2" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="uppercase">Enter somthing you want in uppercase</label>
+            <input id="uppercase" class="form-control" type="text">
+          </div>
+          <button type="submit" class="btn">Show me the letter!</button>
+        </form>
+      </div>
+      <div id="story">
+        <h1>Your Dull Life</h1>
+        <p>Your name is <span class="person1"></span>. You are walking down your <span class="noun1"></span>, sighing about how your life has gone so wrong. <span class="person1"></span> <span class="verb1"></span> into a dance. Everyone laughs at your funky-<span class="noun2"></span>. You decide to head to the tallest building around and end it all.</p>
+      </div>
+      <h3>Your word is: <span class="uppercase"></span></h3>
+    </div>
+  </body>
+</html>

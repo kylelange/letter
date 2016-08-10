@@ -1,0 +1,8 @@
+body {
+  background-image: url(../img/dark.jpeg);
+  color: white;
+}
+
+#story, .uppercase{
+  display: none;
+}
